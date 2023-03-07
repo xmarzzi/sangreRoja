@@ -17,7 +17,7 @@
 ---
 ![](/src/assets/sangreRoja.gif)
 
-## Llegada de las órdenes a la db del Firebase
+## Órdenes en db del Firebase
 ---
 ![](/src/assets/firebase.gif)
 
