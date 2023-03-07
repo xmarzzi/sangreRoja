@@ -11,7 +11,7 @@
 * ***Sweetalert2***
 * ***react-router-dom***
 * ***Firebase***
-### Se incluyó por npm a *Sweetalert2*, esta decisión es debido a que la misma ayuda a dar un aspecto profesional a los mensajes que se envían a los usuarios. Además permite estilar los mensajes, pudiendo así mejorar la interacción con el usuario.
+#### Se incluyó por npm a *Sweetalert2*, esta decisión es debido a que la misma ayuda a dar un aspecto profesional a los mensajes que se envían a los usuarios. Además permite estilar los mensajes, pudiendo así mejorar la interacción con el usuario.
 ---
 ## Funcionamiento del E-commerce
 ---
