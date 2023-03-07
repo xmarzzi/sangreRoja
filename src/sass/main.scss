@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+//VARIABLES
+@import 'vars';
+//MENU RESPONSIVE
+@import 'menu';
+//FONTS
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Montserrat:wght@300&display=swap');
+//font-family: 'Montserrat', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+//font-family: 'Roboto', sans-serif;
+
+.saludoPrincipal{
+    background-image:url(../assets/viñas.jpeg);
+    background-size: cover;
+    padding: 15%;
+}
+
+.slogan{
+    background-color: rgba(244, 241, 241, 0.1);
+    border-radius:5%;
+    font-size: xx-large;
+    color: #ffffff;
+    padding: 3% 5%;
+}
+
+.catalogoPrincipal{
+    background-image:url(../assets/principal.png);
+    background-size: cover;
+}
+
+.catalogoCategory{
+    background-image:url(../assets/bannerCategory.avif);
+    background-size: cover;
+    margin: 5px;
+}
+
+.carrito{
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+.contenedorForm{
+    background-image:url(../assets/form.webp);
+    background-size: cover;
+    
+}
+.formCart{
+    background-color: rgba(244, 241, 241, 0.7);
+    border-radius:5%;
+}
+.contenedorItems{
+background-image:url(../assets/bgCart.avif);
+background-size: cover;
+}
+.item{
+    background-color: rgba(244, 241, 241, 0.7);
+}
+.carritoFooter{
+    background-color: rgba(244, 241, 241, 0.6);
+    padding: 15px;
+}
+.details{
+    background-image: url(../assets/bgdetails.avif);
+    background-size: cover;
+    padding: 15%;
+}
+.texto-borde {
+    -webkit-text-stroke: 1px black;
+    color: #9785a7; 
+  }
+.brief{
+    font-family: 'Roboto', sans-serif;
+    h1{
+        font-size: xx-large;
+        color:#ffffff;
+        background-color: #ad93ba;
+        margin-bottom: 5%;
+        padding: 1%;
+    }
+    h3{
+        font-size: x-large;
+    }
+    p{
+        font-size: large;
+        margin-bottom: 8px;
+        color: #9785a7;
+        -webkit-text-stroke: 0.2px black;
+    }
+}
+@media (min-width:$desktop){
+    .imagen:hover{
+        -webkit-transform:scale(1.5);
+        transform:scale(1.5);
+    }
+    .bannerCatalogo{
+        font-size: xx-large;
+        font-weight:600;
+        color:#dea862;
+        padding: 10px;
+        background-color: rgba(244, 241, 241, 0.6);
+        border-radius: 15px;
+        -webkit-text-stroke: 1px #462911;
+    }
+}
+
+@media (max-width:$desktop){
+    .slogan{
+        font-size: large;
+    }
+    .bannerCatalogo{
+        font-size: medium;
+        font-weight:700;
+        color:#140a02;
+    }
+    .carrito{
+        display: flex;
+        justify-content:end;
+        background-color: #d1a680;
+        color: #fff;
+    }
+    .form{
+        flex-direction: column;
+    
+    }
+}
